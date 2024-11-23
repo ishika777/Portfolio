@@ -9,7 +9,8 @@
     "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
-  "dev": "some-command-to-run-dev"
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
 },
   "dependencies": {
     "framer-motion": "^11.11.17",
