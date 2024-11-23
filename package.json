@@ -6,12 +6,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+    "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "dev": "some-command-to-run-dev"
+},
   "dependencies": {
     "framer-motion": "^11.11.17",
     "react": "^18.3.1",
