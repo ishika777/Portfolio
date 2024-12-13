@@ -9,8 +9,8 @@ const Projects = () => {
             {PROJECTS.map((project, index) => {
                 return(
                     <div key={index} className="mb-16 flex flex-wrap lg:justify-center">
-                        <motion.div whileInView={{opacity : 1, x : 0}} initial={{opacity : 0, x : -100}} transition={{duration : 1}} className="w-full lg:w-1/3">
-                            <img src={project.image} height={500} width={350} className="mb-6 rounded" alt={project.title} />
+                        <motion.div whileInView={{opacity : 1, x : 0}} initial={{opacity : 0, x : -100}} transition={{duration : 1}} className="lg:w-1/3  mr-7 flex justify-end">
+                            <img src={project.image} className="mb-6 rounded object-cover h-44" alt={project.title} />
                         </motion.div>
                         <motion.div whileInView={{opacity : 1, x : 0}} initial={{opacity : 0, x : 100}} transition={{duration : 1}} className="w-full max-w-xl lg:w-12/3">
                             <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
