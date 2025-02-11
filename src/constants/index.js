@@ -5,7 +5,7 @@ import codesync from "../assets/projects/codesync.png";
 import aidev from "../assets/projects/aidev.png";
 import tastybites from "../assets/projects/tastybites.png";
 
-export const HERO_CONTENT = `Sophomore at IGDTUW with a passion for turning ideas into reality. I am dedicated to creating innovative and scalable web applications that provide exceptional user experiences. Always eager to learn and grow, I strive to contribute to projects that make a meaningful impact.`;
+export const HERO_CONTENT = `I am passionate about building innovative and impactful digital solutions. With hands-on experience in full-stack web development, I have developed platforms for education, collaboration, and commerce, focusing on seamless functionality and user engagement. My expertise includes the MERN stack, authentication systems, and scalable backend architectures. I thrive on solving complex challenges, collaborating with teams, and continuously expanding my technical knowledge to create seamless and user-centric applications.`;
 
 export const PROJECTS = [
     {
