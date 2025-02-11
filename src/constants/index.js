@@ -8,14 +8,14 @@ import tastybites from "../assets/projects/tastybites.png";
 export const HERO_CONTENT = `I am passionate about building innovative and impactful digital solutions. With hands-on experience in full-stack web development, I have developed platforms for education, collaboration, and commerce, focusing on seamless functionality and user engagement. My expertise includes the MERN stack, authentication systems, and scalable backend architectures. I thrive on solving complex challenges, collaborating with teams, and continuously expanding my technical knowledge to create seamless and user-centric applications.`;
 
 export const PROJECTS = [
-    {
-        title: "UberRide",
-        image: uber_pc,
+     {
+        title: "CodeSync",
+        image: codesync,
         description:
-          "Developed a real-time ride-hailing app that enables efficient ride matching through real-time booking and automatic suggestion generation. To ensure security and accuracy, I integrated OTP verification for ride confirmation. Additionally, I implemented user and captain authentication using JWT for secure login and authorization, ensuring a seamless and protected experience for all users.",
-        technologies: ["Socket.io", "MERN"],
-        demo : "https://uber-mekk.onrender.com",
-        code : "https://github.com/ishika777/Uber"
+          "Built a real-time code editor that allows multiple users to collaborate simultaneously with synchronized code editing. The platform also supports in-platform code compilation and execution through the Judge0 API, providing an integrated environment for users to write, test, and debug code together in real time. This solution fosters seamless teamwork and efficient development.",
+        technologies: ["Socket.io", "Express.js", "React.js", "Node.js"],
+        demo : "https://code-sync-mkty.onrender.com",
+        code : "https://github.com/ishika777/code-sync"
     },
     {
         title: "AIDevConnect",
@@ -27,15 +27,6 @@ export const PROJECTS = [
         code : "https://github.com/ishika777/chat-app-gemini"
     },
     {
-        title: "CodeSync",
-        image: codesync,
-        description:
-          "Built a real-time code editor that allows multiple users to collaborate simultaneously with synchronized code editing. The platform also supports in-platform code compilation and execution through the Judge0 API, providing an integrated environment for users to write, test, and debug code together in real time. This solution fosters seamless teamwork and efficient development.",
-        technologies: ["Socket.io", "Express.js", "React.js", "Node.js"],
-        demo : "https://code-sync-mkty.onrender.com",
-        code : "https://github.com/ishika777/code-sync"
-    },
-    {
         title: "TastyBites",
         image: tastybites,
         description:
@@ -43,6 +34,15 @@ export const PROJECTS = [
         technologies: ["TypeScript", "Zustand", "Zod", "MERN"],
         demo : "https://tasty-bites-9f9m.onrender.com",
         code : "https://github.com/ishika777/tasty-bites"
+    },
+    {
+        title: "UberRide",
+        image: uber_pc,
+        description:
+          "Developed a real-time ride-hailing app that enables efficient ride matching through real-time booking and automatic suggestion generation. To ensure security and accuracy, I integrated OTP verification for ride confirmation. Additionally, I implemented user and captain authentication using JWT for secure login and authorization, ensuring a seamless and protected experience for all users.",
+        technologies: ["Socket.io", "MERN"],
+        demo : "https://uber-mekk.onrender.com",
+        code : "https://github.com/ishika777/Uber"
     },
   {
     title: "Coderhouse",
